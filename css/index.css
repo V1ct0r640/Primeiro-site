@@ -1,0 +1,43 @@
+/*Limpar as formatações padrão*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(85, 139, 238);
+
+}
+/*
+**** Layout ****
+*/
+#area-cabeçalho{
+    background-color: rgb(60, 186, 190);
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu{
+    padding: 10px;
+}
+/*
+**** Formatação menu ****
+*/
+a:link, a:visited{
+  color: white;
+}
+hover{
+    color:rgb(60, 186, 190);
+    background: white;
+}
+
+/*
+**** Formatações em Geral ****
+*/
+h1{
+    color: aliceblue;
+    font-size: 2.5em;
+}
+branco{
+    color: white;
+}
