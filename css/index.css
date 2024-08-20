@@ -16,15 +16,42 @@ body{
     background-color: rgb(60, 186, 190);
     padding: 15px;
     text-align: center;
+    border: 1px solid white;
 }
 #area-logo, #area-menu{
     padding: 10px;
 }
+area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+
+#postagens, #area-lateral {
+    background: darkgray;
+    float: left;
+}
+
+#postagens{
+    width: 660px;
+    float: right;
+}
+#area-lateral{
+    width: 240px;
+}
+
+#rodape{
+    background: green;
+}
+
 /*
 **** Formatação menu ****
 */
+a{
+    text-decoration: none;
+}
 a:link, a:visited{
   color: white;
+  padding: 8px 12px;
 }
 hover{
     color:rgb(60, 186, 190);
