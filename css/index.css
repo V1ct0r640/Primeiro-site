@@ -38,9 +38,17 @@ area-principal{
 #area-lateral{
     width: 240px;
 }
+.postagem{
+    padding: 20px;
+    margin: 20px;
+    background: white;
+}
 
 #rodape{
-    background: green;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: gray;
 }
 
 /*
