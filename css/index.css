@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-body{
+body {
     font-size: 1em;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(85, 139, 238);
@@ -12,39 +12,42 @@ body{
 /*
 **** Layout ****
 */
-#area-cabeçalho{
+#area-cabeçalho {
     background-color: rgb(60, 186, 190);
     padding: 15px;
     text-align: center;
     border: 1px solid white;
 }
-#area-logo, #area-menu{
+#area-logo, #area-menu {
     padding: 10px;
 }
-area-principal{
+#area-principal {
     width: 920px;
     margin: 0 auto;
+    padding: 15px;
 }
 
-#postagens, #area-lateral {
-    background: darkgray;
-    float: left;
-}
-
-#postagens{
+#postagens {
     width: 660px;
     float: right;
 }
-#area-lateral{
+#area-lateral {
     width: 240px;
 }
-.postagem{
+.postagem {
     padding: 20px;
     margin: 20px;
     background: white;
 }
 
-#rodape{
+.area-lateral {
+   background: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   /*border-bottom: 1px dotted #ccc;*/
+}
+
+#rodape {
     clear: both;
     text-align: center;
     padding: 15px;
@@ -54,25 +57,55 @@ area-principal{
 /*
 **** Formatação menu ****
 */
-a{
+a {
     text-decoration: none;
 }
-a:link, a:visited{
+a:link, a:visited {
+    color: white;
+ 
+  }
+a:hover {
+  text-decoration: underline;
+  }
+
+#area-cabeçalho a:link, #area-cabeçalho a:visited {
   color: white;
   padding: 8px 12px;
 }
-hover{
+#area-cabeçalho a:hover {
     color:rgb(60, 186, 190);
     background: white;
+    text-decoration: none;
 }
 
 /*
 **** Formatações em Geral ****
 */
-h1{
+h1 {
     color: aliceblue;
     font-size: 2.5em;
 }
-branco{
+h2 {
+    color: aqua;
+}
+
+h3 {
+    color: aqua;
+    background: purple;
+    padding: 5px;
+}
+branco {
     color: white;
+}
+.data-postagem {
+   font-size: 0.8em;
+   border-bottom: 1px solid white;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   display: block;
+  
+}
+.area-lateral {
+    font-size: 0.8em;
+    padding: 5px;
 }
