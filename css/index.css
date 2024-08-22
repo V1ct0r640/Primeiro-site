@@ -33,19 +33,16 @@ body {
 }
 #area-lateral {
     width: 240px;
+    background: white;
+   padding: 10px;
+   margin-bottom: 20px;
+   float: right;
+   /*border-bottom: 1px dotted #ccc;*/
 }
 .postagem {
     padding: 20px;
     margin: 20px;
     background: white;
-}
-
-.area-lateral {
-   background: white;
-   padding: 10px;
-   margin-bottom: 20px;
-    float:rigt;
-   /*border-bottom: 1px dotted #ccc;*/
 }
 
 #rodape {
@@ -62,7 +59,7 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: white;
+    color: rgb(193, 22, 236);
  
   }
 a:hover {
@@ -70,12 +67,12 @@ a:hover {
   }
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 8px 12px;
 }
 #area-cabeçalho a:hover {
-    color:rgb(60, 186, 190);
-    background: white;
+    color:rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
     text-decoration: none;
 }
 
@@ -83,7 +80,7 @@ a:hover {
 **** Formatações em Geral ****
 */
 h1 {
-    color: aliceblue;
+    color: rgb(43, 133, 212);
     font-size: 2.5em;
 }
 h2 {
@@ -96,11 +93,11 @@ h3 {
     padding: 5px;
 }
 branco {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .data-postagem {
    font-size: 0.8em;
-   border-bottom: 1px solid white;
+   border-bottom: 1px solid rgb(255, 255, 255);
    padding-bottom: 10px;
    margin-bottom: 10px;
    display: block;
