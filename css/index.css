@@ -16,7 +16,7 @@ body {
     background-color: rgb(60, 186, 190);
     padding: 15px;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid rgb(255, 255, 255);
 }
 #area-logo, #area-menu {
     padding: 10px;
@@ -67,11 +67,11 @@ a:hover {
   }
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 247, 255);
   padding: 8px 12px;
 }
 #area-cabeçalho a:hover {
-    color:rgb(255, 255, 255);
+    color: rgb(0, 247, 255);
     background: rgb(255, 255, 255);
     text-decoration: none;
 }
