@@ -29,7 +29,7 @@ body {
 
 #postagens {
     width: 660px;
-    float: right;
+    float: left;
 }
 #area-lateral {
     width: 240px;
@@ -44,6 +44,7 @@ body {
    background: white;
    padding: 10px;
    margin-bottom: 20px;
+    float:rigt;
    /*border-bottom: 1px dotted #ccc;*/
 }
 
