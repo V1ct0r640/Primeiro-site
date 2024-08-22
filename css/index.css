@@ -67,11 +67,11 @@ a:hover {
   }
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 247, 255);
   padding: 8px 12px;
 }
 #area-cabeçalho a:hover {
-    color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
     background: rgb(255, 255, 255);
     text-decoration: none;
 }
