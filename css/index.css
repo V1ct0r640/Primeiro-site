@@ -67,7 +67,7 @@ a {
     text-decoration: none;
 }
 a:link, a:visited {
-    color: rgb(193, 22, 236);
+    color: rgb(0, 0, 0);
  
   }
 a:hover {
@@ -75,11 +75,11 @@ a:hover {
   }
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(0, 247, 255);
+  color: rgb(0, 0, 0);
   padding: 8px 12px;
 }
 #area-cabeçalho a:hover {
-    color: rgb(0, 247, 255);
+    color: rgb(0, 0, 0);
 
 
     background: rgb(255, 255, 255);
@@ -90,7 +90,7 @@ a:hover {
 **** Formatações em Geral ****
 */
 h1 {
-    color: rgb(43, 133, 212);
+    color: rgb(255, 255, 255);
     font-size: 2.5em;
 }
 h2 {
@@ -98,7 +98,7 @@ h2 {
 }
 
 h3 {
-    color: aqua;
+    color: rgb(0, 0, 0);
     background: purple;
     padding: 5px;
 }
@@ -139,7 +139,7 @@ branco {
 }
 
 #postagens {
-    width: 660px;
+    width: 640;
     float: left;
 }
 #area-lateral {
