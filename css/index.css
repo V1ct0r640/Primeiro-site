@@ -21,7 +21,7 @@ body {
 **** Layout ****
 */
 #area-cabeçalho {
-    background-color: rgb(60, 186, 190);
+    background-color: rgb(21, 6, 231);
     padding: 15px;
     text-align: center;
     border: 1px solid rgb(255, 255, 255);
@@ -94,12 +94,12 @@ h1 {
     font-size: 2.5em;
 }
 h2 {
-    color: aqua;
+    color: blue;
 }
 
 h3 {
     color: rgb(0, 0, 0);
-    background: purple;
+    background: rgb(21, 6, 231);
     padding: 5px;
 }
 branco {
@@ -124,7 +124,7 @@ branco {
 **** Layout ****
 */
 #area-cabeçalho {
-    background-color: rgb(60, 186, 190);
+    background-color: rgb(21, 6, 231);
     padding: 15px;
     text-align: center;
     border: 1px solid rgb(255, 255, 255);
@@ -178,13 +178,13 @@ a:hover {
   }
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(0, 247, 255);
+  color: rgb(255, 255, 255);
   padding: 8px 12px;
 }
 #area-cabeçalho a:hover {
-    color: rgb(0, 247, 255);
+    color: rgb(255, 255, 255);
 
-    background: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
     text-decoration: none;
 }
 
@@ -192,16 +192,16 @@ a:hover {
 **** Formatações em Geral ****
 */
 h1 {
-    color: rgb(43, 133, 212);
+    color: rgb(255, 255, 255);
     font-size: 2.5em;
 }
 h2 {
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 
 h3 {
-    color: aqua;
-    background: purple;
+    color: rgb(0, 0, 0);
+    background: rgb(21, 6, 231);
     padding: 5px;
 }
 branco {
