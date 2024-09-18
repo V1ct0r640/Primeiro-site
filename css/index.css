@@ -22,41 +22,41 @@ body {
 */
 #area-cabeçalho {
     background-color: rgb(21, 6, 231);
-    padding: 15em;
+    padding: 5em;
     text-align: center;
     border: 1em solid rgb(255, 255, 255);
 }
 #area-logo, #area-menu {
-    padding: 10em;
+    padding: 5em;
 }
 #area-principal {
-    width: 920em;
+    width: 460em;
     margin: 0 auto;
-    padding: 15em;
+    padding: 7em;
 }
 
 #postagens {
-    width: 660em;
+    width: 330em;
     float: left;
 }
 #area-lateral {
-    width: 240em;
+    width: 120em;
     background: white;
-   padding: 10em;
-   margin-bottom: 20em;
+   padding: 5em;
+   margin-bottom: 10em;
    float: right;
    /*border-bottom: 1px dotted #ccc;*/
 }
 .postagem {
-    padding: 20em;
-    margin: 20em;
+    padding: 10em;
+    margin: 10em;
     background: white;
 }
 
 #rodape {
     clear: both;
     text-align: center;
-    padding: 15em;
+    padding: 7em;
     background: gray;
 }
 
@@ -76,7 +76,7 @@ a:hover {
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
   color: rgb(0, 0, 0);
-  padding: 8em 12em;
+  padding:4em 6em;
 }
 #area-cabeçalho a:hover {
     color: rgb(0, 0, 0);
@@ -91,7 +91,7 @@ a:hover {
 */
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 1.25em;
 }
 h2 {
     color: blue;
@@ -100,7 +100,7 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     background: rgb(21, 6, 231);
-    padding: 5em;
+    padding: 2em;
 }
 branco {
     color: rgb(255, 255, 255);
@@ -108,14 +108,14 @@ branco {
 .data-postagem {
    font-size: 0.8em;
    border-bottom: 1em solid rgb(255, 255, 255);
-   padding-bottom: 10em;
-   margin-bottom: 10em;
+   padding-bottom: 5em;
+   margin-bottom: 5em;
    display: block;
   
 }
 .area-lateral {
     font-size: 0.8em;
-    padding: 5em;
+    padding: 2em;
 }
 
 
@@ -125,17 +125,17 @@ branco {
 */
 #area-cabeçalho {
     background-color: rgb(21, 6, 231);
-    padding: 15em;
+    padding: 7em;
     text-align: center;
     border: 1em solid rgb(255, 255, 255);
 }
 #area-logo, #area-menu {
-    padding: 10em;
+    padding: 5em;
 }
 #area-principal {
-    width: 920em;
+    width: 460em;
     margin: 0 auto;
-    padding: 15em;
+    padding: 7em;
 }
 
 #postagens {
@@ -143,23 +143,23 @@ branco {
     float: left;
 }
 #area-lateral {
-    width: 240em;
+    width: 120em;
     background: white;
-   padding: 10em;
-   margin-bottom: 20em;
+   padding: 5em;
+   margin-bottom: 10em;
    float: right;
    /*border-bottom: 1px dotted #ccc;*/
 }
 .postagem {
-    padding: 20em;
-    margin: 20em;
+    padding: 10em;
+    margin: 10em;
     background: white;
 }
 
 #rodape {
     clear: both;
     text-align: center;
-    padding: 15em;
+    padding: 7em;
     background: gray;
 }
 
@@ -179,7 +179,7 @@ a:hover {
 
 #area-cabeçalho a:link, #area-cabeçalho a:visited {
   color: rgb(255, 255, 255);
-  padding: 8em 12em;
+  padding: 4em 6em;
 }
 #area-cabeçalho a:hover {
     color: rgb(255, 255, 255);
@@ -193,7 +193,7 @@ a:hover {
 */
 h1 {
     color: rgb(255, 255, 255);
-    font-size: 2.5em;
+    font-size: 1.25em;
 }
 h2 {
     color: rgb(0, 0, 0);
@@ -202,7 +202,7 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     background: rgb(21, 6, 231);
-    padding: 5em;
+    padding: 2em;
 }
 branco {
     color: rgb(255, 255, 255);
@@ -210,14 +210,14 @@ branco {
 .data-postagem {
    font-size: 0.8em;
    border-bottom: 1em solid rgb(255, 255, 255);
-   padding-bottom: 10em;
-   margin-bottom: 10em;
+   padding-bottom: 5em;
+   margin-bottom: 5em;
    display: block;
   
 }
 .area-lateral {
     font-size: 0.8em;
-    padding: 5em;
+    padding: 2em;
 }
 
 
