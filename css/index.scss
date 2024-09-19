@@ -1,0 +1,152 @@
+/*Limpar as formatações padrão*/
+$primary:rgb(21, 6, 231);
+$secondary: rgb(255, 255, 255);
+$tertiary: rgb(230, 232, 236);
+$Quaternary: rgb(0, 0, 0);
+$quinary: rgb(214, 217, 221);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: $quinary; /*Limpar as formatações padrão*/
+   
+*{
+    margin: 0;
+    padding: 0;
+}
+}
+
+#area-cabeçalho {
+    background-color: $primary;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid $secondary;
+    #area-cabeçalho a:link, #area-cabeçalho a:visited {
+        color: rgb(0, 0, 0);
+        padding: 8px 12px;
+      }
+      #area-cabeçalho a:hover {
+          color: rgb(0, 0, 0);
+          background: $secondary;
+          text-decoration: none;
+      }
+      
+    }
+
+#area-logo, #area-menu {
+    padding: 10px;
+   
+}
+#area-principal {
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+ 
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+    
+}
+#area-lateral {
+    width: 240px;
+    background: $secondary;
+   padding: 10px;
+   margin-bottom: 20px;
+   float: right;
+   /*border-bottom: 1px dotted #ccc;*/
+   .area-lateral {
+        font-size: 0.8em;
+        padding: 5px;
+    }
+   
+}
+.area-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.postagem {
+    padding: 20px;
+    margin: 20px;
+    background: $secondary;
+    
+}
+
+#rodape {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: gray;
+   
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+ 
+  }
+a:hover {
+  text-decoration: underline;
+  }
+
+ h1 {
+    color: $secondary;
+    font-size: 2.5em;
+}
+h2 {
+    color: blue;
+}
+
+h3 {
+    color: $secondary;
+    background: $primary;
+    padding: 5px;
+}
+branco {
+    color: $secondary;
+}
+.data-postagem {
+   font-size: 0.8em;
+   border-bottom: 1px solid $secondary;
+   padding-bottom: 10px;
+   margin-bottom: 10px;
+   display: block;
+  
+ }
+  
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: rgb(0, 0, 0);
+ 
+  }
+a:hover {
+  text-decoration: underline;
+  }
+
+h1 {
+    color: $secondary;
+    font-size: 2.5em;
+}
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    background: $primary;
+    padding: 5px;
+}
+branco {
+    color: $secondary;
+}
