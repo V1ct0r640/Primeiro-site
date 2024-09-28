@@ -8,5 +8,8 @@
 
  [Todo os links do repositório.docx](https://github.com/user-attachments/files/17169196/Todo.os.links.do.repositorio.docx)
 
+Link do site:
  https://v1ct0r640.github.io/Primeiro-site/
+
+ Link do design:
 https://www.canva.com/design/DAGPMBpIZWI/ExGtngBHj-nkaVI9DnU-Jg/edit?utm_content=DAGPMBpIZWI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
