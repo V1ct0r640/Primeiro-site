@@ -1,18 +1,15 @@
 @charset "UTF-8";
-/*Limpar as formatações padrão*/
+
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box; 
 }
 
 body {
   font-size: 1em;
   font-family: "Times New Roman", Times, serif;
-  background-color: rgb(214, 217, 221); /*Limpar as formatações padrão*/
-}
-body * {
-  margin: 0;
-  padding: 0;
+  background-color: rgb(214, 217, 221);
 }
 
 #area-cabeçalho {
@@ -21,53 +18,45 @@ body * {
   text-align: center;
   border: 1px solid rgb(255, 255, 255);
 }
-#area-cabeçalho #area-cabeçalho a:link, #area-cabeçalho #area-cabeçalho a:visited {
+
+#area-cabeçalho a {
   color: rgb(0, 0, 0);
   padding: 8px 12px;
-}
-#area-cabeçalho #area-cabeçalho a:hover {
-  color: rgb(0, 0, 0);
-  background: rgb(255, 255, 255);
   text-decoration: none;
 }
 
-#area-logo, #area-menu {
-  padding: 10px;
+#area-cabeçalho a:hover {
+  background: rgb(255, 255, 255);
 }
 
 #area-principal {
-  width: 920px;
+  max-width: 1200px; 
+  width: 90%; 
   margin: 0 auto;
   padding: 15px;
 }
 
 #postagens {
-  width: 660px;
   float: left;
+  width: 100%; 
 }
 
 #area-lateral {
-  width: 240px;
+  width: 100%; 
   background: rgb(255, 255, 255);
   padding: 10px;
-  margin-bottom: 20px;
-  float: right;
-  /*border-bottom: 1px dotted #ccc;*/
-}
-#area-lateral .area-lateral {
-  font-size: 0.8em;
-  padding: 5px;
-}
-
-.area-lateral {
-  font-size: 0.8em;
-  padding: 5px;
+  margin-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
 }
 
 .postagem {
   padding: 20px;
-  margin: 20px;
+  margin: 20px 0;
   background: rgb(255, 255, 255);
+  margin-right: 20px;
 }
 
 #rodape {
@@ -77,17 +66,11 @@ body * {
   background: gray;
 }
 
-a {
-  text-decoration: none;
-}
-
-a:link, a:visited {
-  color: rgb(0, 0, 0);
-}
 
 a:hover {
   text-decoration: underline;
 }
+
 
 h1 {
   color: rgb(255, 255, 255);
@@ -95,7 +78,7 @@ h1 {
 }
 
 h2 {
-  color: blue;
+  color: rgb(0, 0, 0);
 }
 
 h3 {
@@ -104,9 +87,6 @@ h3 {
   padding: 5px;
 }
 
-branco {
-  color: rgb(255, 255, 255);
-}
 
 .data-postagem {
   font-size: 0.8em;
@@ -116,258 +96,27 @@ branco {
   display: block;
 }
 
-a {
-  text-decoration: none;
-}
 
-a:link, a:visited {
-  color: rgb(0, 0, 0);
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-h1 {
-  color: rgb(255, 255, 255);
-  font-size: 2.5em;
-}
-
-h2 {
-  color: rgb(0, 0, 0);
-}
-
-h3 {
-  color: rgb(0, 0, 0);
-  background: rgb(21, 6, 231);
-  padding: 5px;
-}
-
-branco {
-  color: rgb(255, 255, 255);
-}/*# sourceMappingURL=index.css.map */
-/*Limpar as formatações padrão*/
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(214, 217, 221); /*Limpar as formatações padrão*/
-*{
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: rgb(230, 232, 236);
-
-}
-/*
-**** Layout ****
-*/
-#area-cabeçalho {
-    background-color: rgb(21, 6, 231);
-    padding: 10px;
-    text-align: center;
-    border: 1em solid rgb(255, 255, 255);
-}
-#area-logo, #area-menu {
-    padding: 10px;
-}
-#area-principal {
-    width: 920px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-#postagens {
-    width: 660px;
+@media (min-width: 768px) {
+  #postagens {
+    width: 70%; 
     float: left;
-}
-#area-lateral {
-    width: 240px;
-    background: white;
-   padding: 10px;
-   margin-bottom: 20px;
-   float: right;
-   /*border-bottom: 1px dotted #ccc;*/
-}
-.postagem {
-    padding: 20px;
-    margin: 20px;
-    background: white;
-}
-
-#rodape {
-    clear: both;
-    text-align: center;
-    padding: 15px;
-    background: gray;
-}
-
-/*
-**** Formatação menu ****
-*/
-a {
-    text-decoration: none;
-}
-a:link, a:visited {
-    color: rgb(0, 0, 0);
- 
-  }
-a:hover {
-  text-decoration: underline;
   }
 
-#area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(0, 0, 0);
-  padding: 8px 12px;
-}
-#area-cabeçalho a:hover {
-    color: rgb(0, 0, 0);
-
-
-    background: rgb(255, 255, 255);
-    text-decoration: none;
-}
-
-/*
-**** Formatações em Geral ****
-*/
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 2.5px;
-}
-h2 {
-    color: blue;
-}
-
-h3 {
-    color: rgb(0, 0, 0);
-    background: rgb(21, 6, 231);
-    padding: 4px;
-}
-branco {
-    color: rgb(255, 255, 255);
-}
-.data-postagem {
-   font-size: 0.8em;
-   border-bottom: 2px solid rgb(255, 255, 255);
-   padding-bottom: 10px;
-   margin-bottom: 10px;
-   display: block;
-  
-}
-.area-lateral {
-    font-size: 0.8em;
-    padding: 4px;
-}
-
-
-
-/*
-**** Layout ****
-*/
-#area-cabeçalho {
-    background-color: rgb(21, 6, 231);
-    padding: 15px;
-    text-align: center;
-    border: 1em solid rgb(255, 255, 255);
-}
-#area-logo, #area-menu {
-    padding: 5em;
-}
-#area-principal {
-    width: 920px;
-    margin: 0 auto;
-    padding: 15px;
-}
-
-#postagens {
-    width: 640;
-    float: left;
-}
-#area-lateral {
-    width: 240px;
-    background: white;
-   padding: 10px;
-   margin-bottom: 20px;
-   float: right;
-   /*border-bottom: 1px dotted #ccc;*/
-}
-.postagem {
-    padding: 20px;
-    margin: 20px;
-    background: white;
-}
-
-#rodape {
-    clear: both;
-    text-align: center;
-    padding: 15px;
-    background: gray;
-}
-
-/*
-**** Formatação menu ****
-*/
-a {
-    text-decoration: none;
-}
-a:link, a:visited {
-    color: rgb(193, 22, 236);
- 
-  }
-a:hover {
-  text-decoration: underline;
+  #area-lateral {
+    width: 30%; 
+    float: right;
   }
 
-#area-cabeçalho a:link, #area-cabeçalho a:visited {
-  color: rgb(255, 255, 255);
-  padding: 8px 12px;
-}
-#area-cabeçalho a:hover {
-    color: rgb(255, 255, 255);
-
-    background: rgb(0, 0, 0);
-    text-decoration: none;
+  #rodape {
+    padding: 15px;
+  }
 }
 
-/*
-**** Formatações em Geral ****
-*/
-h1 {
-    color: rgb(255, 255, 255);
-    font-size: 75px;
-}
-h2 {
-    color: rgb(0, 0, 0);
-}
-
-h3 {
-    color: rgb(0, 0, 0);
-    background: rgb(21, 6, 231);
-    padding: 4px;
-}
-branco {
-    color: rgb(255, 255, 255);
-}
-.data-postagem {
-   font-size: 0.8em;
-   border-bottom: 1em solid rgb(255, 255, 255);
-   padding-bottom: 10px;
-   margin-bottom: 10px;
-   display: block;
-  
-}
-.area-lateral {
-    font-size: 0.8em;
-    padding: 4px;
-}
-
-
-
+@media (max-width: 767px) {
+  #postagens,
+  #area-lateral {
+    width: 100%; 
+    float: none; 
+  }
 }
