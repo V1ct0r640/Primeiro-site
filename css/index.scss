@@ -5,152 +5,123 @@ $tertiary: rgb(230, 232, 236);
 $Quaternary: rgb(0, 0, 0);
 $quinary: rgb(214, 217, 221);
 
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body {
+    box-sizing: border-box; 
+  }
+  
+  body {
     font-size: 1em;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: $quinary; /*Limpar as formatações padrão*/
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-   
-*{
-    margin: 0;
-    padding: 0;
-}
-}
-
-#area-cabeçalho {
+    font-family: "Times New Roman", Times, serif;
+    background-color: $quinary;
+  }
+  
+  #area-cabeçalho {
     background-color: $primary;
     padding: 15px;
     text-align: center;
     border: 1px solid $secondary;
-       
-    #area-cabeçalho a:link, #area-cabeçalho a:visited {
-        color: rgb(0, 0, 0);
-        padding: 8px 12px;
-      }
-      #area-cabeçalho a:hover {
-          color: rgb(0, 0, 0);
-          background: $secondary;
-          text-decoration: none;
-      }
-      
-    }
-
-#area-logo, #area-menu {
-    padding: 5vh;
-   
-}
-#area-principal {
-    width: 920px;
+  }
+  
+  #area-cabeçalho a {
+    color: $Quaternary;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+  
+  #area-cabeçalho a:hover {
+    background: $secondary;
+  }
+  
+  #area-principal {
+    max-width: 1200px; 
+    width: 90%; 
     margin: 0 auto;
     padding: 15px;
- 
-}
-
-#postagens {
-    width: 660px;
+  }
+  
+  #postagens {
     float: left;
-    
-}
-#area-lateral {
-    width: 220px;
+    width: 100%; 
+  }
+  
+  #area-lateral {
+    width: 100%; 
     background: $secondary;
-   padding: 10px;
-   margin-bottom: 20px;
-   float: right;
-   /*border-bottom: 1px dotted #ccc;*/
-   .area-lateral {
-        font-size: 0.8em;
-        padding: 5px;
-    }
-   
-}
-.area-lateral {
-    font-size: 0.8em;
-    padding: 5px;
-}
-
-.postagem {
+    padding: 10px;
+    margin-top: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      padding-left: 20px;
+      padding-top: 20px;
+  }
+  
+  .postagem {
     padding: 20px;
-    margin: 20px;
+    margin: 20px 0;
     background: $secondary;
-    
-}
-
-#rodape {
+    margin-right: 20px;
+  }
+  
+  #rodape {
     clear: both;
     text-align: center;
-    padding: 15vh;
-    background: gray;
-   
-}
-
-a {
-    text-decoration: none;
-}
-a:link, a:visited {
-    color: rgb(0, 0, 0);
- 
+    padding: 15px;
+    background: $quinary;
   }
-a:hover {
-  text-decoration: underline;
+  
+  
+  a:hover {
+    text-decoration: underline;
   }
-
- h1 {
+  
+  
+  h1 {
     color: $secondary;
     font-size: 2.5em;
-}
-h2 {
-    color: blue;
-}
-
-h3 {
+  }
+  
+  h2 {
+    color: $Quaternary;
+  }
+  
+  h3 {
     color: $secondary;
     background: $primary;
     padding: 5px;
-}
-branco {
-    color: $secondary;
-}
-.data-postagem {
-   font-size: 0.8em;
-   border-bottom: 1px solid $secondary;
-   padding-bottom: 10px;
-   margin-bottom: 10px;
-   display: block;
-  
- }
-  
-a {
-    text-decoration: none;
-}
-a:link, a:visited {
-    color: rgb(0, 0, 0);
- 
   }
-a:hover {
-  text-decoration: underline;
+  
+  
+  .data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid $secondary;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
   }
-
-h1 {
-    color: $secondary;
-    font-size: 2.5em;
-}
-h2 {
-    color: rgb(0, 0, 0);
-}
-
-h3 {
-    color: rgb(0, 0, 0);
-    background: $primary;
-    padding: 5px;
-}
-branco {
-    color: $secondary;
-}
+  
+  
+  @media (min-width: 768px) {
+    #postagens {
+      width: 70%; 
+      float: left;
+    }
+  
+    #area-lateral {
+      width: 30%; 
+      float: right;
+    }
+  
+    #rodape {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    #postagens,
+    #area-lateral {
+      width: 100%; 
+      float: none; 
+    }
+  }
