@@ -2,7 +2,7 @@
  Meu primeiro site.
  Espero que gostem.
 
- Somo a TimeSoft, um site de notícias que vai te deixar por dentro de tudo sobre o mundo do jogos, cinema, videogames, pcs e hardware e software.
+Somo a TimeSoft, um site de notícias que vai te deixar por dentro de tudo sobre o mundo do jogos, cinema, videogames, pcs e hardware/software. Traremos notícias todos os dias, com nossas opiniões, debates, informações para te deixar por dentro de tudo sobre o mundo nerd e o mundo da informática. 
 
  Integrantes: Victor e Michael.
 
