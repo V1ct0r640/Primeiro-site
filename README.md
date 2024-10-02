@@ -2,7 +2,7 @@
  Meu primeiro site.
  Espero que gostem.
 
-Somo a TimeSoft, um site de notícias que vão te deixar por dentro de tudo sobre o mundo do jogos, cinema, videogames, pcs e hardware/software. Traremos notícias todos os dias, com nossas opiniões, debates e informações para ficar atualizado sobre diversos temas com conteúdo dinâmico e muito bem explicado para a compreensão de todos. 
+Somos a TimeSoft, um portal de notícias dedicado a mantê-lo informado sobre tudo o que acontece no universo dos jogos, cinema, videogames, PCs e hardware/software. Nosso compromisso é trazer notícias diárias, acompanhadas de nossas análises, debates e informações detalhadas, para que você esteja sempre atualizado sobre uma variedade de temas. Nosso conteúdo é dinâmico e elaborado para garantir uma compreensão a todos. Com a TimeSoft, você terá acesso a uma cobertura completa, que vai desde as últimas novidades e lançamentos até discussões aprofundadas sobre assuntos de anos passados. Junte-se a nós e fique por dentro de tudo o que é relevante no mundo do entretenimento digital e da tecnologia!
 
  Integrantes: Victor e Michael.
 
