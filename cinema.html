@@ -14,7 +14,9 @@
 img {
     width: 100%;
 }
-
+.highlight {
+            color: rgb(243, 228, 13);
+        }
 
     </style>
     
@@ -22,7 +24,7 @@ img {
 <body>
     <div id="area-cabeçalho">
         <div id="area-logo">
-            <h1> <span class="branco">Cinema</span></h1>
+            <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Cinema</span></h1>
         </div>
         <div id="area-menu">
             
@@ -61,6 +63,14 @@ img {
             </div><!--// fechamento da postagem -->
         </div>
   
+        <script>
+            function highlightTitle() {
+                document.getElementById("titulo-principal").classList.add('highlight');
+            }
     
+            function removeHighlight() {
+                document.getElementById("titulo-principal").classList.remove('highlight');
+            }
+        </script>
 </body>
 </html>
