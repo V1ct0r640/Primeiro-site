@@ -9,7 +9,7 @@
 
     <style>
         @media screen and (min-width: 320px) and (max-width: 1200px) {
-            /* Estilos responsivos */
+            
         }
 
         img {
@@ -27,21 +27,15 @@
             <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> 
                 <span class="branco">TimeSoft</span>
             </h1>
-
         </div>
         <div id="area-menu">
-            <a href="#" onclick="window.location.href = 'jogos.html'">Jogos</a>
-            <a href="#" onclick="window.location.href = 'cinema.html'">Cinema</a>
-            <a href="#" onclick="window.location.href = 'consoles.html'">Consoles</a>
-            <a href="#" onclick="window.location.href = 'eletronicos.html'">Eletrônicos</a>
-            <a href="#" onclick="window.location.href = 'formulario.html'">Formulário</a>
+            <!-- Os links estão na tag script -->
         </div>
-
     </div>
     
     <div id="area-principal">
         <div id="postagens">
-            <!-- abertura da postagem -->
+            <!-- Conteúdo das postagens -->
             <div class="postagem">
                 <h2>Rtx 4090</h2>
                 <span class="data-postagem">postado em 21 de março de 2024</span>
@@ -50,9 +44,8 @@
                     Usando a arquitetura Ada Lovelace, a placa é equipada com 16.384 núcleos CUDA, clock base de 2,23 GHz (boost de 2,52 GHz), memória VRAM de 24 GB GDDR6X e interface de 384 bits. Seu TDP é de 450 W, o que requer uma fonte de ao menos 850 W para funcionar. A RTX 4090 possui Ray Tracing Cores de terceira geração e Tensor Cores de quarta geração.
                 </p>
                 <a href="">Leia mais</a>
-            </div><!--// fechamento da postagem -->
+            </div>
 
-            <!-- abertura da postagem -->
             <div class="postagem">
                 <h2>Deadpool e Wolverine</h2>
                 <span class="data-postagem">postado em 22 de março de 2024</span>
@@ -61,7 +54,7 @@
                     Deadpool e Wolverine é o mais novo vilme da franquia Marvel studios, mas o que você precisar saber para assistir o filme?
                 </p>
                 <a href="">Leia mais</a>
-            </div><!--// fechamento da postagem -->
+            </div>
         </div>
 
         <div id="area-lateral">
@@ -71,7 +64,6 @@
                     <p class="postagem-lateral">PS5 ou Xbox Series X, qual o melhor</p>
                     <a href="">Leia mais</a>
                 </div>
-
                 <hr>
                 <div>
                     <p class="postagem-lateral">Black Myth Wukong. Saiba tudo sobre este jogo?</p>
@@ -91,6 +83,7 @@
     </div>
 
     <script>
+        
         function highlightTitle() {
             document.getElementById("titulo-principal").classList.add('highlight');
         }
@@ -98,6 +91,27 @@
         function removeHighlight() {
             document.getElementById("titulo-principal").classList.remove('highlight');
         }
+
+        
+        const links = [
+            { text: "Jogos", url: "jogos.html" },
+            { text: "Cinema", url: "cinema.html" },
+            { text: "Consoles", url: "consoles.html" },
+            { text: "Eletrônicos", url: "eletronicos.html" },
+            { text: "Formulário", url: "formulario.html" }
+        ];
+
+        const menuArea = document.getElementById("area-menu");
+
+        links.forEach(linkInfo => {
+            const link = document.createElement("a");
+            link.href = "#";
+            link.textContent = linkInfo.text;
+            link.onclick = function() {
+                window.location.href = linkInfo.url;
+            };
+            menuArea.appendChild(link);
+        });
     </script>
 </body>
 </html>

@@ -27,15 +27,9 @@ img {
             <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Jogos</span></h1>
         </div>
         <div id="area-menu">
-            
-            <a href="#" onclick="window.location.href = 'index.html'">Home</a>
-            <a href="#" onclick="window.location.href = 'cinema.html'">Cinema</a>
-            <a href="#" onclick="window.location.href = 'consoles.html'">Consoles</a>
-            <a href="#" onclick="window.location.href = 'eletronicos.html'">Eletrônicos</a>
-            <a href="#" onclick="window.location.href = 'formulario.html'">Formulário</a>
-
+             
         </div>
-
+          <!-- Os links estão na tag script -->
     </div>
 
     <div id="area-principal">
@@ -71,6 +65,27 @@ img {
             function removeHighlight() {
                 document.getElementById("titulo-principal").classList.remove('highlight');
             }
+
+            
+        const links = [
+            { text: "Home", url: "index.html" },
+            { text: "Cinema", url: "cinema.html" },
+            { text: "Consoles", url: "consoles.html" },
+            { text: "Eletrônicos", url: "eletronicos.html" },
+            { text: "Formulário", url: "formulario.html" }
+        ];
+
+        const menuArea = document.getElementById("area-menu");
+
+        links.forEach(linkInfo => {
+            const link = document.createElement("a");
+            link.href = "#";
+            link.textContent = linkInfo.text;
+            link.onclick = function() {
+                window.location.href = linkInfo.url;
+            };
+            menuArea.appendChild(link);
+        });
         </script>
 </body>
 </html>
