@@ -56,7 +56,14 @@ img {
                 <a href="">Leia mais</a>
             </div><!--// fechamento da postagem -->
         </div>
-  
+          <li>
+        <a href="#" onclick="carregar_pagina('index.html')">Home</a>
+        <a href="#" onclick="carregar_pagina('jogos.html')">Jogos</a>
+        <a href="#" onclick="carregar_pagina('cinema.html')">Cinema</a>
+        <a href="#" onclick="carregar_pagina('consoles.html')">Consoles</a>
+        <a href="#" onclick="carregar_pagina('eletronicos.html')">Eletrônicos</a>
+        <a href="#" onclick="carregar_pagina('formulario.html')">Formulário</a>
+    </li>
         <script>
             function highlightTitle() {
                 document.getElementById("titulo-principal").classList.add('highlight');
@@ -67,25 +74,7 @@ img {
             }
 
             
-        const links = [
-            { text: "Home", url: "index.html" },
-            { text: "Cinema", url: "cinema.html" },
-            { text: "Consoles", url: "consoles.html" },
-            { text: "Eletrônicos", url: "eletronicos.html" },
-            { text: "Formulário", url: "formulario.html" }
-        ];
-
-        const menuArea = document.getElementById("area-menu");
-
-        links.forEach(linkInfo => {
-            const link = document.createElement("a");
-            link.href = "#";
-            link.textContent = linkInfo.text;
-            link.onclick = function() {
-                window.location.href = linkInfo.url;
-            };
-            menuArea.appendChild(link);
-        });
+       
         </script>
 </body>
 </html>
