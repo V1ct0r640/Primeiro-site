@@ -73,7 +73,13 @@ img {
                 document.getElementById("titulo-principal").classList.remove('highlight');
             }
 
-            
+             function carregar_pagina(pagina) {
+            fetch(`https: //${document.domain}/${pagina}`, {
+                method: "get"
+            })
+            .then(response => response.text())
+            .then(response => document.getElementById("content").innerHTML = responseText())
+        }
 
         </script>
 </body>
