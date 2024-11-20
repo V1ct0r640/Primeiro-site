@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
-    <title>Eletrônicos</title>
+    <title>Consoles e Pc</title>
     
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="/Frontend/css/index.css">
 
     <style>
         @media screen and (min-width: 320px) and (max-width: 1200px) {
@@ -16,22 +16,19 @@ img {
     width: 100%;
 }
 .highlight {
-            color: rgb(73, 72, 72);
+            color: rgb(189, 186, 186);
         }
 
     </style>
     
 </head>
 <body>
-
-    <a href="../../Backend/create_table.php"></a>
-    
     <div id="area-cabeçalho">
         <div id="area-logo">
-            <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Eletrônicos</span></h1>
+            <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Consoles e Pc</span></h1>
         </div>
         <div id="area-menu">
-           
+          
         </div>
          <!-- Os links estão na tag script -->
     </div>
@@ -40,30 +37,29 @@ img {
         <div id="postagens">
             <!-- abertura da postagem -->
             <div class="postagem">
-                <h2>Rtx 4090</h2>
-                <span class="data-postagem">postado em 21 de março de 2024</span>
-                <img src="../imagens/imagem1.jpg" alt="Imagem">
+                <h2>Xbox Series X</h2>
+                <span class="data-postagem">postado em 28 de março de 2024</span>
+                <img src="/Frontend/imagens/imagem9.jpg" alt="Imagem">
 
                 <p>
-                 Usando a arquitetura Ada Lovelace, a placa é equipada com 16.384 núcleos CUDA, clock base de 2,23 GHz (boost de 2,52 GHz), memória VRAM de 24 GB GDDR6X e interface de 384 bits. Seu TDP é de 450 W, o que requer uma fonte de ao menos 850 W para funcionar. A RTX 4090 possui Ray Tracing Cores de terceira geração e Tensor Cores de quarta geração.
+                  Venha conferir tudo sobre o novo xbox, desde de aspectos do hardware até o software.
                 </p>
                 <a href="">Leia mais</a>
             </div><!--// fechamento da postagem -->
 
              <!-- abertura da postagem -->
              <div class="postagem">
-                <h2>Teclado Mecânico</h2>
-                <span class="data-postagem">postado em 29 de março de 2024</span>
-                <img src="../imagens/imagem5,jpg" alt="Imagem">
+                <h2>PS5</h2>
+                <span class="data-postagem">postado em 27 de março de 2024</span>
+                <img src="/Frontend/imagens/imagem4.jpg.png" alt="Imagem">
 
                 <p>
-                  Como funcionam os teclados mecânicos? Qual o melhor switch? 
+                    Venha conferir tudo sobre o novo ps5, desde de aspectos do hardware até o software.
                 </p>
                 <a href="">Leia mais</a>
             </div><!--// fechamento da postagem -->
         </div>
-         
-  
+          
         <script>
             function highlightTitle() {
                 document.getElementById("titulo-principal").classList.add('highlight');
@@ -77,7 +73,7 @@ img {
             { text: "Home", url: "index.html" },
             { text: "Jogos", url: "jogos.html" },
             { text: "Cinema", url: "cinema.html" },
-            { text: "Consoles", url: "consoles.html" },
+            { text: "Eletrônicos", url: "eletronicos.html" },
             { text: "Formulário", url: "formulario.html" }
         ];
 
@@ -92,7 +88,7 @@ img {
             };
             menuArea.appendChild(link);
         });
-        
+
         </script>
 </body>
 </html>

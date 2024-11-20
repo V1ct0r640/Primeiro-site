@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
-    <title>Consoles e Pc</title>
+    <title>Jogos</title>
     
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="/Frontend/css/index.css">
 
     <style>
         @media screen and (min-width: 320px) and (max-width: 1200px) {
@@ -16,53 +16,50 @@ img {
     width: 100%;
 }
 .highlight {
-            color: rgb(189, 186, 186);
+            color: black;
         }
 
     </style>
     
 </head>
 <body>
-
-    <a href="../../Backend/create_table.php"></a>
-    
     <div id="area-cabeçalho">
         <div id="area-logo">
-            <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Consoles e Pc</span></h1>
+            <h1 id="titulo-principal" onmouseover="highlightTitle()" onmouseout="removeHighlight()"> <span class="branco">Jogos</span></h1>
         </div>
         <div id="area-menu">
-          
+             
         </div>
-         <!-- Os links estão na tag script -->
+          <!-- Os links estão na tag script -->
     </div>
 
     <div id="area-principal">
         <div id="postagens">
             <!-- abertura da postagem -->
             <div class="postagem">
-                <h2>Xbox Series X</h2>
-                <span class="data-postagem">postado em 28 de março de 2024</span>
-                <img src="../imagens/imagem9.jpg" alt="Imagem">
+                <h2>GTA VI</h2>
+                <span class="data-postagem">postado em 24 de março de 2024</span>
+                <img src="/Frontend/imagens/imagem7.jpg" alt="Imagem">
 
                 <p>
-                  Venha conferir tudo sobre o novo xbox, desde de aspectos do hardware até o software.
+                 GTA VI, o jogo mais aguardado do século!!! Saiba tudo sobre ele.
                 </p>
                 <a href="">Leia mais</a>
             </div><!--// fechamento da postagem -->
 
              <!-- abertura da postagem -->
              <div class="postagem">
-                <h2>PS5</h2>
-                <span class="data-postagem">postado em 27 de março de 2024</span>
-                <img src="../imagens/imagem4.jpg.png" alt="Imagem">
+                <h2>Black Myth Wukong</h2>
+                <span class="data-postagem">postado em 23 de março de 2024</span>
+                <img src="/Frontend/imagens/imagem2.jpg.webp" alt="Imagem">
 
                 <p>
-                    Venha conferir tudo sobre o novo ps5, desde de aspectos do hardware até o software.
+                 O primeiro grande jogo chinês já chegou recebendo diversas críticas, quer saber se vale a pena jogar? Então venha analisa-las e tire suas próprias conclusões.
                 </p>
                 <a href="">Leia mais</a>
             </div><!--// fechamento da postagem -->
         </div>
-          
+         
         <script>
             function highlightTitle() {
                 document.getElementById("titulo-principal").classList.add('highlight');
@@ -72,10 +69,11 @@ img {
                 document.getElementById("titulo-principal").classList.remove('highlight');
             }
 
-            const links = [
+           // Código JavaScript para adicionar os links.
+        const links = [
             { text: "Home", url: "index.html" },
-            { text: "Jogos", url: "jogos.html" },
             { text: "Cinema", url: "cinema.html" },
+            { text: "Consoles", url: "consoles.html" },
             { text: "Eletrônicos", url: "eletronicos.html" },
             { text: "Formulário", url: "formulario.html" }
         ];
@@ -91,7 +89,7 @@ img {
             };
             menuArea.appendChild(link);
         });
-
+       
         </script>
 </body>
 </html>
