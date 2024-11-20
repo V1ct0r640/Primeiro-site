@@ -63,54 +63,42 @@
 </head>
 <body>
    <div class="box">
-    <form action="../../Backend/formulario.php" method="POST">
-
-
-      <fieldset>
-        <legend>Formulário</legend>
-        <br>
-        <div class="inputBox">
+      
+    <form action="form_handler.php" method="POST">
+      <div class="inputBox">
           <label for="nome">Nome completo*</label>
           <input type="text" name="nome" id="nome" class="inputUser" required>
-          
-        </div>
-        <br><br>
-        <div class="inputBox">
+      </div>
+      <br><br>
+      <div class="inputBox">
           <label for="email">Email*</label>
-          <input type="text" name="email" id="email" class="inputUser" required>
-          
-        </div>
-        <br><br>
-        <div class="inputBox">
+          <input type="email" name="email" id="email" class="inputUser" required>
+      </div>
+      <br><br>
+      <div class="inputBox">
           <label for="telefone">Telefone*</label>
           <input type="text" name="telefone" id="telefone" class="inputUser" required>
-          
-        </div>
-        <br><br>
-        <div class="inputBox">
+      </div>
+      <br><br>
+      <div class="inputBox">
           <label for="conteudo">Conteúdo que deseja receber</label>
-          <input type="text" name="conteudo" id="conteudo" class="inputUser" required>
-          
-        </div>
-        <br><br>
-        <p>Sexo</p>
-        <input type="radio" id="feminino" name="gênero" value="feminino" required>
-        <label for="feminino">Feminino</label>
-        <input type="radio" id="masculino" name="gênero" value="masculino" required>
-        <label for="masculino">Masculino</label>
-        <input type="radio" id="outro" name="gênero" value="outro" required>
-        <label for="outro">Outro</label>
-        <div class="inputBox">
-          <br><br>
-          <label for="data">Data de Nascimento</label>
-          <input type="date" name="data" id="data" class="inputUser" required>
-          
-        </div>
-        <br><br>
-        <button type="submit" name="submit" id="submit">Enviar</button>
-      </fieldset>
-    </form>
-  </div>
+          <input type="text" name="conteudo" id="conteudo" class="inputUser">
+      </div>
+      <br><br>
+      <p>Sexo</p>
+      <input type="radio" id="feminino" name="gênero" value="feminino" required>
+      <label for="feminino">Feminino</label>
+      <input type="radio" id="masculino" name="gênero" value="masculino" required>
+      <label for="masculino">Masculino</label>
+      <input type="radio" id="outro" name="gênero" value="outro" required>
+      <label for="outro">Outro</label>
+      <br><br>
+      <label for="data">Data de Nascimento</label>
+      <input type="date" name="data" id="data" required>
+      <br><br>
+      <button type="submit">Enviar</button>
+  </form>
+  
   
   
 
