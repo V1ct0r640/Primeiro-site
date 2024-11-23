@@ -78,34 +78,30 @@
       <br><br>
       <div class="inputBox">
           <label for="telefone">Telefone*</label>
-          <input type="text" name="telefone" id="telefone" class="inputUser" required>
+          <input type="text" name="gta" id="gta" class="inputUser" required>
       </div>
       <br><br>
-      <div class="inputBox">
-          <label for="conteudo">Conteúdo que deseja receber</label>
-          <input type="text" name="conteudo" id="conteudo" class="inputUser">
-      </div>
-      <br><br>
-      <p>Sexo</p>
-      <input type="radio" id="feminino" name="genero" value="feminino" required>
-      <label for="feminino">Feminino</label>
-      <input type="radio" id="masculino" name="genero" value="masculino" required>
-      <label for="masculino">Masculino</label>
-      <input type="radio" id="outro" name="genero" value="outro" required>
-      <label for="outro">Outro</label>
+      <select name="categorias" id="categorias">
+        <option value="rtx">Eletronicos</option>
+        <option value="teclado">Eletronicos</option>
+        <option value="gta">Jogos</option>
+        <option value="black">Jogos</option>
+        <option value="superman">Cinema</option>
+        <option value="deadpool">Cinema</option>
+        <option value="ps5">Consoles</option>
+        <option value="xbox">Consoles</option>
+    </select>
       <br><br>
       <label for="data">Data de Nascimento</label>
       <input type="date" name="data" id="data" required>
-      <br><br>
-      <button type="submit">Enviar</button>
+     <button type="submit">Enviar</button>
   </form>
   <script>
     let formData = new FormData();
     formData.append('nome', document.TimeSoft.nome.value);
     formData.append('email', document.TimeSoft.email.value);
     formData.append('telefone', document.TimeSoft.telefone.value);
-    formData.append('conteudo', document.TimeSoft.conteudo.value);
-    formData.append('genero', document.TimeSoft.genero.value);
+    formData.append('categoria', document.TimeSoft.categoria.value);
     formData.append('data', document.TimeSoft.data.value);
 
     fetch("https://vigilant-train-q7gjvppxpwx2vx4-8000.app.github.dev/formulario.php", {
