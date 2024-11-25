@@ -10,7 +10,7 @@ Backend: Um servidor em php, então baixe os arquivos e rode ele via xampp, ou q
 
 Integrantes: Victor Pires e Michael Braga.
 
-[Todo os links do repositório.docx]()
+Todos os links do repositório: https://1drv.ms/w/c/02e3c60561da56c2/EYbq8LYgpGhOoWCJ09ZN-GYBYLsOSrSobHsRqJzbV6YG2A?e=nhOZuE
 
 Link do site:
 https://v1ct0r640.github.io/Primeiro-site/
